@@ -1,0 +1,20 @@
+body {
+background-color: lightgoldenrodyellow;
+  color black;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: normal;
+  line-height:1.6em ;
+
+}
+
+/*class selector dmv een punt*/
+.black-border {
+  border: 2px solid black;
+}
+
+
+/*id selector dmv een hashtag*/
+#green-background {
+  background-color: red;
+}
