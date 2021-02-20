@@ -1,0 +1,48 @@
+body {
+background-color: lightgoldenrodyellow;
+  color black;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: normal;
+  line-height:1.6em ;
+  margin:10px;
+  padding-top:60px;
+  padding-bottom:60px;
+  padding-left:10px;
+  padding-right:10px;
+
+  padding:60px 10px 60px 10px; 
+  
+
+}
+
+/*class selector dmv een punt
+.black-border {
+  border: 2px solid black;
+}
+
+
+/*id selector dmv een hashtag*/
+#green-background {
+  background-color: red;
+}
+
+.col-border{
+  border:5px solid pink;
+  
+
+}
+
+.black-borders{
+  width:200px;
+  margin: 0 auto;
+}
+
+.linklijst {
+  display: inline;
+}
+
+ul li {
+  display: inline;
+}
+
