@@ -1,0 +1,27 @@
+.soft-border {
+  border: 5px solid blue;
+  margin: 20px;
+  padding: 10px;
+}
+
+.centre-title {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.navigation-links li {
+  display: inline;
+  margin: 10px;
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #eafaf1;
+    color: #6c3483;
+    font-size: smaller;
+    line-height: 0.8em;
+  }
+}
