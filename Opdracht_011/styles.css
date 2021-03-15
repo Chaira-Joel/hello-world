@@ -1,0 +1,70 @@
+.container1 {
+  display:grid;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "name name name"
+  "friends friends friends"
+  "tekst tekst tekst"
+  "button-block button-block";
+}
+
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  grid-area: #name;
+
+}
+
+.friends {
+    color:grey;
+   
+    
+}
+
+.img{
+  position:absolute;
+  left:10px
+  top:52.5px;
+  grid-area: images;
+  
+}
+
+.button-block{
+    display:inline-block;
+    right:10px;
+    top:85px
+}
+.button-block div{
+  display:inline-block;
+  grid-area: button-block;
+ 
+}
+
+#confirm {
+  background-color:#fff;
+  color:lightgreen;
+  padding:7px;
+  border: solid 2px;
+  border-radius:5px;
+  margin-right:10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#delete {
+  background-color: #fff;
+  color:red;
+  padding:7px;
+  border:solid 2px;
+  border-radius: 5px;
+  margin-right:10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+}
